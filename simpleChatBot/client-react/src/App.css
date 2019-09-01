@@ -1,0 +1,30 @@
+ul li {
+  list-style-type: none;
+}
+
+.mainChat {
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid ;
+  border-color: transparent;
+  border-radius: 25px;
+}
+
+.botChat {
+  background-color: aqua;
+}
+
+.humanChat {
+  align-self: flex-end;
+  background-color: burlywood;
+}
+
+.input {
+  display: flex;
+  padding: 10px;
+}
